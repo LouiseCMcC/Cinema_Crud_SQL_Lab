@@ -81,4 +81,6 @@ SELECT show_time FROM movies WHERE title = 'Iron Man 2';
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
 
 -- Research how to delete multiple entries from your table in a single command.
-DELETE FROM movies WHERE year = 2017;
+DELETE FROM movies WHERE year = 2017; 
+
+-- DELETE FROM movies WHERE id IN (1, 4)/ id BETWEEN (1, 4)
